@@ -1,0 +1,16 @@
+html, body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+p{	
+	line-height:1.5;
+	padding-bottom:1.5em;
+}
+h1{
+	line-height: 0.75;
+}
+h2{
+	line-height: 0.75;
+}
+h3{
+	line-height: 0.75;
+}
