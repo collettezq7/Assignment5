@@ -6,10 +6,10 @@
   <link rel="stylesheet" href="jquery-ui.min.css">
   <script src="jquery.js"></script>
   <script src="jquery-ui.js"></script>
-
 </head>
 <body>
-  <div class="jQueryUIExample">
+ 
+  <div id="dateAndInfo">
     <h1>Assignment 5</h1>
     <h3>Did you know Colleen's getting married?</h3>
     <h4>Guess the date here!</h4>
@@ -17,8 +17,8 @@
     <p>Sorry to have wasted your time. Yes, it's happening, but I'm in no rush and have no idea when the wedding will happen. Plus, it's going to be tiny and boring - just my style. You're great for guessing though, and your prize is a high five next time I see you, but only if you remind me (mostly because you're not stored in a database, so I have no idea who picked a date without being told).</p>
   </div>
 
-  <div class="jQueryUIExample">
-    <div id="tabs">
+
+  <div id="tabs">
     <ul>
       <li><a href="#tabs-1">Favorite Color</a></li>
       <li><a href="#tabs-2">Favorite Plant</a></li>
@@ -37,16 +37,22 @@
       <p>All info taken directly from <a href="http://en.wikipedia.org/" target="_blank">Wikipedia.</a></p>
     </div>
     <div id="tabs-3">
-      <p>As a piece of Quality or [[]], a fork is a tool consisting of a handle with several narrow tines on one end. The fork as an eating utensil has been a feature primarily of the West, whereas in East Asia chopsticks have been more prevalent. Today, forks are increasingly available throughout East Asia. The utensil (usually metal) is used to lift food to the mouth or to hold ingredients in place while they are being cut. Food can be lifted either by spearing it on the tines, or by holding it on top of the tines, which are often curved slightly. A fork is also shaped in the form of a trident but curved at the joint of the handle to the points.</p>
+      <p>As a piece of Quality, a fork is a tool consisting of a handle with several narrow tines on one end. The fork as an eating utensil has been a feature primarily of the West, whereas in East Asia chopsticks have been more prevalent. Today, forks are increasingly available throughout East Asia. The utensil (usually metal) is used to lift food to the mouth or to hold ingredients in place while they are being cut. Food can be lifted either by spearing it on the tines, or by holding it on top of the tines, which are often curved slightly. A fork is also shaped in the form of a trident but curved at the joint of the handle to the points.</p>
 
       <p>Though the fork's early history is obscure, the fork as a kitchen and dining utensil is generally believed to have originated in the Roman Empire, or in Ancient Greece. The personal table fork most likely originated in the Eastern Roman, or Byzantine, Empire. Its use spread to what is now the Middle East during the first millennium CE and then spread into southern Europe during the second millennium. It did not become common in northern Europe until the 18th century and was not common in North America until the 19th century.</p>
 
       <p>All info taken directly from <a href="http://en.wikipedia.org/" target="_blank">Wikipedia.</a></p>
+    </div>
 
-
+  </div>
+   <div id="popup" class="hidden">
+    <div id="popupText">
+      <p><em>Your session is expiring soon. Do you want to stay on this page, buddy?</em></p>
+      <button id="stay">Stay</button>
+      <button id="exit">Exit</button>
     </div>
   </div>
-  </div>
+
   <script src="leavePage.js"></script>
 </body>
 </html>
